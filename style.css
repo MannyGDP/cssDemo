@@ -1,0 +1,35 @@
+*{
+    outline: 1px solid red;
+}
+
+body {
+    height: 300vh;
+    margin: 0;
+    text-align: center;
+    font-size: 1em;
+    color: beige;
+}
+
+main {
+    background: teal;
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+}
+
+div {
+    display: inline-block;
+    height: 100px;
+    width: 24%;
+}
+
+.static {
+    background: red;
+}
+
+.relative {
+    background: green;
+    position: relative;
+    top: 100px;
+    left: 113px;
+}
