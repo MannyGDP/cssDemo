@@ -13,14 +13,16 @@ body {
 main {
     background: teal;
     margin: 0 auto;
-    width: 50%;
+    width: 75%;
     height: 100%;
+    margin-top: 300px;
+    position: relative;
 }
 
 div {
     display: inline-block;
     height: 100px;
-    width: 24%;
+    width: 100px;
 }
 
 .static {
@@ -30,6 +32,30 @@ div {
 .relative {
     background: green;
     position: relative;
-    top: 100px;
-    left: 113px;
+    top: 150px;
+    left: 50px;
+}
+
+.absolute {
+    background: blue;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+.fixed {
+    background: yellow;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-radius: 50px;
+    margin: 0 10px 0;
+    color: red;
+}
+
+.sticky {
+    background: pink;
+    position: sticky;
+    top: 50px;
+    
 }
